@@ -1,0 +1,17 @@
+.product__card {
+    width: 20%;
+    margin: 20px;
+  }
+  
+  .product__thumbnail img {
+    width: auto;
+    height: 200px;
+  }
+  
+  .product__discount {
+    color: red;
+  }
+  
+  .product__price {
+    text-decoration: line-through;
+  }
