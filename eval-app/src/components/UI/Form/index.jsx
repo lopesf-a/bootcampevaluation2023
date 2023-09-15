@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../Button';
 class index extends React.Component {
 
     
@@ -70,8 +71,10 @@ const state2 = this.state;
               required>
             </input>
   
-            <button>Login</button>
-  
+            <Button 
+            onClick = {console.log(this.state.firstname, this.state.lastname, this.state.message, this.state.object)}
+            title = "Submit"
+            />  
           </div>
   
         </form>
