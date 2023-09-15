@@ -12,7 +12,7 @@ const Index = ({ post }) => {
 
   return (
     <div className="product__card">
-      <a href="https://freefakeapi.io/api/posts/3"> test </a>
+      {/* <a href="https://freefakeapi.io/api/posts/3"> test </a> */}
       <div className="product__thumbnail">
         <img src={post.picture} alt={post.title} />
       </div>
